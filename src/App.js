@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Badan from './aps/body';
+import Footer from './aps/footer';
+import Kepala from './aps/header';
+
 
 function App() {
+  document.body.style = "background : #fac228;"
+Badan()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div className='bg-image'></div>
+    <Badan />
+    </>
   );
 }
 

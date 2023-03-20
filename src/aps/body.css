@@ -1,0 +1,118 @@
+.slide1{
+    height: 500px;
+
+}
+.slide2{
+    height: 500px;
+}
+.slide3{
+    height: 500px;
+}
+.slide4{
+    height: 500px;
+}
+.slide5{
+    height: 500px;
+}
+.slide6{
+    height: 500px;
+}
+.card {
+    margin: auto;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.413);
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.509);
+}
+.input-card {
+    width: 250px;
+    height: 40px;
+    outline-width: 0px;
+    border-width: 0px 0px 2px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 10px;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+.for1 {
+    text-align: center;
+}
+.judul-card {
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    color: rgb(18, 23, 48);
+}
+.text-card { 
+    font-size: 20px;
+}
+
+/* ini untuk footer */
+
+.footer {
+    width: 100%;
+    height: 100px;
+}
+.footer-text {
+    text-align: center;
+    margin: auto;
+}
+.flex-foot {
+    display: inline;
+}
+.foot-name-school {
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}   
+.foot-alamat-school {
+    text-align: center;
+    margin: auto;
+}
+.foot-yt-school {
+    font-size: 15px;
+}
+.icon-yt {
+    background-image: url('./raw/youtube.png');
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+}
+.icon-ig {
+    background-image: url('./raw/instagram.png');
+    width: 20px; 
+    height: 20px;
+    background-size: 20px;
+}
+.foot-ig-school {
+ 
+}
+.foot-web-school {
+
+}
+
+/* ini untuk header */
+
+.kepala {
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.header{
+    width: 95%;
+    margin:auto;
+    height: 100%;
+    position: relative;
+    top: -30px;
+}
+.Judul {
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: aliceblue;
+}
